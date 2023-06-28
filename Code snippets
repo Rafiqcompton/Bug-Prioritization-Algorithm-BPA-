@@ -1,0 +1,8 @@
+This function loads a pre-trained machine learning model and uses it to predict the priority of a given bug. 
+The model would need to be trained on a large dataset of bugs and their corresponding priority labels.
+
+
+def BPA(bug):
+    trained_model = load_model('bug_priority_model')
+    priority = trained_model.predict(bug)
+    return priority
