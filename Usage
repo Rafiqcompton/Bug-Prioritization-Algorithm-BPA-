@@ -1,0 +1,1 @@
+Load the trained model and use it to predict the priority of new bugs.
