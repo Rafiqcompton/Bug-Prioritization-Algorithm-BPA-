@@ -1,0 +1,4 @@
+Collect a large dataset of bugs and their corresponding priority labels.
+Preprocess the data to a suitable format for a machine learning model.
+Train a machine learning model on this data.
+Save the trained model to a file.
